@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_options_titles" translatable="false">
+        <item>@string/notification</item>
+        <item>@string/qs</item>
+        <item>@string/both</item>
+    </string-array>
+    <string-array name="pref_options_values" translatable="false">
+        <item>noti</item>
+        <item>qs</item>
+        <item>both</item>
+    </string-array>
+    <string-array name="pref_loc_titles" translatable="false">
+        <item>@string/left</item>
+        <item>@string/center</item>
+        <item>@string/right</item>
+    </string-array>
+    <string-array name="pref_loc_values" translatable="false">
+        <item>left</item>
+        <item>center</item>
+        <item>right</item>
+    </string-array>
+</resources>

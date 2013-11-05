@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="copyright_key"
+        android:summary="@string/copyright_summary"
+        android:title="@string/app_name" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="NLEnable"
+        android:summary="@string/desc_nl"
+        android:title="@string/title_nl" />
+
+    <ListPreference
+        android:defaultValue="both"
+        android:entries="@array/pref_options_titles"
+        android:entryValues="@array/pref_options_values"
+        android:key="nl_option"
+        android:title="@string/title_option" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="disablesettings"
+        android:summary="@string/desc_disablesettings"
+        android:title="@string/title_disablesettings" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="batteryAPM"
+        android:summary="@string/desc_bapm"
+        android:title="@string/title_bapm" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="aosp"
+        android:summary="@string/desc_aosp"
+        android:title="@string/title_aosp" />
+
+    <de.robv.android.xposed.library.ui.ValueSeekBarPreference
+        displayFormat="%d"
+        max="100"
+        min="0"
+        android:defaultValue="25"
+        android:key="aosppercent"
+        android:summary="@string/desc_aosppercent"
+        android:title="@string/title_aosppercent" />
+
+    <ListPreference
+        android:defaultValue="right"
+        android:entries="@array/pref_loc_titles"
+        android:entryValues="@array/pref_loc_values"
+        android:key="triggerloc"
+        android:title="@string/title_aosptriggerloc" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="launcherhide"
+        android:title="@string/title_launcherhide" />
+
+</PreferenceScreen>

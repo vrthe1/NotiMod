@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notification Mod</string>
+    <string name="copyright_summary">Copyright © 2013 – vrthe1 (aNi)</string>
+    <string name="notification">Notification Only</string>
+    <string name="qs">Quick Settings Only</string>
+    <string name="both">Both</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="title_option">Notification Options</string>
+    <string name="desc_nl">Enable notification pulldown in secured lockscreen.</string>
+    <string name="title_nl">Lockscreen Notification</string>
+    <string name="title_bapm">Hold battery for APM</string>
+    <string name="desc_bapm">Long press battery icon to display APM.</string>
+    <string name="title_aosp">AOSP Style Pulldown</string>
+    <string name="desc_aosp">Pulling from the right corner brings the Quick Settings.</string>
+    <string name="title_disablesettings">Disable Settings button</string>
+    <string name="desc_disablesettings">Remove settings button from notication at lockscreen (Notification only option).</string>
+    <string name="title_aosppercent">AOSP trigger width</string>
+    <string name="desc_aosppercent">Width for the AOSP style pulldown.</string>
+    <string name="title_aosptriggerloc">AOSP trigger location</string>
+    <string name="title_launcherhide">Launcher hide icon</string>
+
+</resources>
