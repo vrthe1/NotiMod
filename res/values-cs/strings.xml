@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notification Mod</string>
+    <string name="copyright_summary">Copyright © 2013 – vrthe1 (aNi)</string>
+    <string name="notification">Pouze notifikace/string>
+    <string name="qs">Pouze Rychlé nastavení</string>
+    <string name="both">Obě</string>
+    <string name="left">Levo</string>
+    <string name="center">Střed</string>
+    <string name="right">Pravo</string>
+    <string name="title_option">Typ notifikační oblasti</string>
+    <string name="desc_nl">Povolit roztažení notifikační oblasti při zamknuté obrazovce.</string>
+    <string name="title_nl">Notifikace při zamknuté obrazovce</string>
+    <string name="title_bapm">Stikněte baterii pro APM</string>
+    <string name="desc_bapm">Dlouze stiskněte ikonu baterie pro zobrazení APM.</string>
+    <string name="title_aosp">AOSP styl stažení</string>
+    <string name="desc_aosp">Stažení z pravého rohu otevře Rychlé nastavení.</string>
+    <string name="title_disablesettings">Deaktivace tlačítka Nastavení</string>
+    <string name="desc_disablesettings">Odstraňte tlačítko Nastavení z notifikační oblasti při zamknuté obrazovce (pouze při režimu Pouze notifikace).</string>
+    <string name="title_aosppercent">Šířka AOSP spouštěče</string>
+    <string name="desc_aosppercent">Šířka AOSP stylu stažení.</string>
+    <string name="title_aosptriggerloc">Umístění AOSP spouštěče</string>
+    <string name="title_launcherhide">Skrýt ikonu (pro Launcher)</string>
+    <--! Přeložil WodokCZ -->
+
+</resources>
